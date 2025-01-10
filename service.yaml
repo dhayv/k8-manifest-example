@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service # Create a service resource
+metadata:
+  name: nginx-service # Name of the service
+spec:
+  type: LoadBalancer # Exposes the service via a cloud provider's load balancer
+  selector:
+    app: nginx # Links this service to Pods with the label app: fastapi
+  ports:
+    - port: 80 # Exposed port for external traffic
+      targetPort: 80 # Port on the container to route traffic to
+      protocol: TCP # Communication protocol
