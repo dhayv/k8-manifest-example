@@ -1,6 +1,6 @@
 # Understanding Kubernetes Manifests
 
-**[Read the full guide here]([your-blog-link-here](https://dev.to/dhayv/understanding-kubernetes-manifests-a-beginners-guide-to-deployments-and-services-2h90))**
+**[Read the full guide here](https://dev.to/dhayv/understanding-kubernetes-manifests-a-beginners-guide-to-deployments-and-services-2h90)**
 
 ## Overview
 This repository accompanies a comprehensive guide to understanding Kubernetes manifests, focusing on two fundamental resources: Deployments and Services. The guide breaks down the structure and purpose of basic Kubernetes YAML configurations that every developer should understand when starting with Kubernetes.
